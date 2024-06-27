@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Puzzle">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+    </FrameLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:columnCount = "3"
+        android:rowCount="3">
+
+        <ImageButton
+            android:id="@+id/image00"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:onClick="imgClick"
+            android:contentDescription="@string/gridPic_contentDescription" />
+        <ImageButton
+            android:id="@+id/image01"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            android:src="@drawable/bb2"
+            tools:srcCompat="@drawable/bb2"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image02"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image10"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image11"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image12"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image20"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image21"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+        <ImageButton
+            android:id="@+id/image22"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_row="2"
+            android:layout_column="2"
+            android:scaleType='fitCenter'
+            android:padding = "0dp"
+            tools:srcCompat="@tools:sample/avatars"
+            android:contentDescription="@string/NULL"
+            android:onClick="imgClick"
+            />
+
+    </GridLayout>
+    <FrameLayout
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/run"
+            android:layout_gravity="left"
+            android:id="@+id/run"
+
+        />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/shuffle"
+            android:layout_gravity="center"
+            android:id="@+id/shuffle"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cheat"
+            android:layout_gravity="right"
+            android:id="@+id/cheat"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>

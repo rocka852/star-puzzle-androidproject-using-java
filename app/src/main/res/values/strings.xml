@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FinalProject</string>
+
+    <string name="gridPic_contentDescription">Here suppose to have a picture</string>
+    <string name="NULL">"NULL"</string>
+    <string name="run">Challenge</string>
+    <string name="cheat">TestCheat</string>
+    <string name="shuffle">Shuffle</string>
+    <string name="spaceship">Please input your spaceship name</string>
+    <string name="recipient">Please input your recipient name</string>
+    <string name="message">Please input your message</string>
+</resources>
