@@ -24,5 +24,5 @@ User is responsible for moving the grid, when the grids trigger the pattern, pro
 ![puzzle](./Resources/star_puzzle.jpg)
 ---
 ## Conclusion/ Downloadable
-[Android_executable_file](./Resources/star-puzzle.apk)
+[Android_executable_file](./Resources)
 
